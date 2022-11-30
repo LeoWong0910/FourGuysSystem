@@ -130,7 +130,7 @@ if __name__ == '__main__':
                 string = input("Input the Keywords that you are looking for: ")
                 file = file.translate({ord('"'): None})
                 string = string.translate({ord('"'): None})
-                print(find_string(string,file))
+                find_string(string,file)
             
             if cmd == "dir_info":
                 file = input("Input the directory that you are looking for: ")
