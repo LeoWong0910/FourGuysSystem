@@ -142,5 +142,4 @@ if __name__ == '__main__':
                 dir = input("Input the directory: ")
                 dir = dir.translate({ord('"'): None})
                 print("Total Size: %d Bytes" %dir_size(dir))
-    
-    
+          
